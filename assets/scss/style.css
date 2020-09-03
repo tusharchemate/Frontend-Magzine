@@ -1,0 +1,208 @@
+.bottom-left1, .bottom-right {
+  padding: 2px 6px;
+  background-color: #ff0000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.bottom-left1, .bottom-text, .bottom-right {
+  left: 8%;
+}
+
+.bottom-left1, .bottom, .bottom-text, .bottom-right, .bottom1 {
+  position: absolute;
+}
+
+.bottom, .bottom1 {
+  font-size: 1.2rem;
+  bottom: 7%;
+  left: 8%;
+  line-height: 1.3;
+}
+
+.cover, .cover1, .cover2 {
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.heading-section1, .heading-section1 h4 {
+  border-bottom: 1px solid #ccc;
+}
+
+.cover, .cover1, .cover2 {
+  -webkit-animation: fadeInRight 2s;
+          animation: fadeInRight 2s;
+}
+
+* {
+  -webkit-animation: zoomIn 2s;
+          animation: zoomIn 2s;
+}
+
+.footer-icon:hover {
+  -webkit-animation: zoomOutUp 3s;
+          animation: zoomOutUp 3s;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: fantasy;
+  -webkit-animation: heartBeat 5s;
+          animation: heartBeat 5s;
+}
+
+.nav-item {
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.cover {
+  background-image: url("https://cheerup.theme-sphere.com/magazine/wp-content/uploads/sites/7/2016/08/shutterstock_357792800-768x512.jpg");
+}
+
+.cover1 {
+  background-image: url("https://cheerup.theme-sphere.com/magazine/wp-content/uploads/sites/7/2016/05/shutterstock_180272480-768x512.jpg");
+  width: 99.2%;
+}
+
+.cover2 {
+  background-image: url("https://cheerup.theme-sphere.com/magazine/wp-content/uploads/sites/7/2016/05/shutterstock_362367734-scaled-768x1010.jpg");
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*="col-"]:not(:first-child),
+.row.no-gutter [class*="col-"]:not(:last-child) {
+  padding-right: 0;
+  padding-left: 2px;
+}
+
+.bottom-left1 {
+  bottom: 27%;
+}
+
+.bottom {
+  font-size: 1.8rem;
+}
+
+.bottom-text {
+  bottom: 2%;
+}
+
+.bottom-right {
+  bottom: 20%;
+}
+
+.heading-section1 {
+  height: 39px;
+  margin-bottom: 30px;
+}
+
+.heading-section1 h4 {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.view {
+  margin-top: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #97918f;
+}
+
+.tech {
+  position: relative;
+}
+
+.tech span {
+  position: inherit;
+  color: white;
+  bottom: 25px;
+  background-color: #000;
+  padding: 4px 7px;
+  font-size: 13px;
+}
+
+.tech span:hover {
+  background-color: red;
+}
+
+.social-icon {
+  padding: 8px 20px 10px 0px;
+  background-color: #3059b0;
+  color: #fff;
+}
+
+.popular {
+  position: relative;
+}
+
+.popular span {
+  position: inherit;
+  color: white;
+  bottom: 28px;
+  background-color: #ff0000;
+  padding: 7px 12px;
+  font-size: 13px;
+}
+
+.by {
+  font-size: 11px;
+}
+
+.cheer {
+  width: 100%;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #000;
+}
+
+.cat-item li {
+  color: red;
+  padding: 2px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+.cat-list {
+  width: 100%;
+}
+
+.cat-list ul {
+  padding: 5px 5px 10px 3px;
+  list-style: circle;
+}
+
+.fol {
+  position: relative;
+}
+
+.follow {
+  border-bottom: 2px solid #ff0000;
+  width: 20px;
+  margin: auto;
+}
+
+.foothead {
+  font-family: fantasy;
+}
+
+.footer-heading {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .social-icon {
+    padding: 8px 10px 10px 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
